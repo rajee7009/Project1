@@ -9,4 +9,7 @@ import { Constants } from 'SharedLib/src/app/_constants/constants';
 export class AppComponent {
   title = 'project1';
   name = Constants.NAME
+  constructor() {
+    localStorage.setItem('test', 'HELLO')
+  }
 }
