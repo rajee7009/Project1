@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Constants } from 'SharedLib/src/app/_constants/constants';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project1';
+  name = Constants.NAME
 }
