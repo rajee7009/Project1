@@ -1,3 +1,6 @@
 [submodule "SharedLib"]
 	path = SharedLib
 	url = https://github.com/rajee7009/SharedLib.git
+[submodule "sharedLowerVersion"]
+	path = sharedLowerVersion
+	url = https://github.com/rajee7009/sharedLowerVersion.git
